@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    padding:1em;
+    margin:0 auto;
+}
+
+/* button section */
+
+.btn{
+    text-decoration: none;
+    font-size:0.8rem;
+}
+
+.btn-white{
+    color:black;
+    font-weight: 600;
+    border:0.5px solid #fff;
+    padding:0.2em 1.5em;
+    border-radius: 1em;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.5);
+    float: right;
+    background-color: #fff;
+    justify-content: flex-end;
+}
+
+.btn-pink{
+    background-color:rgba(240, 0, 152,0.9);
+    padding:1em;
+    border-radius:40px;
+    margin:1em;
+    color:#fff;
+}
+
+
+/* Header section */
+
+header{
+    background:url(../images/bg-hero-mobile.svg);
+    background-color:rgba(179, 238, 255, 0.25);
+}
+
+.nav{
+    margin:1em 0 2em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logo{
+        width: 35%;
+    }
+
+header h1{
+    font-size: 1.5rem;
+    margin: 1.3em;
+}
+
+.description{
+    color: rgba(0, 37, 46, 0.9);
+    margin: 1em 0.5em;
+}
+
+/* Content section */
+
+.border{
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin:2em 0;
+    padding:1em;
+    background-color: #fff;
+}
+
+h2{
+    padding: 1em 0;
+}
+
+.content p{
+    color: rgba(0, 37, 46, 0.9);
+    margin-bottom: 1em;
+}
+
+/*Ready to build section*/
+
+.build{
+    position: relative;
+    z-index: 1;
+}
+
+.build h2{
+    font-size: 1.5rem;
+}
+
+/* Footer section */
+
+footer{
+    background-color:rgb(0, 45, 56);
+    color:#fff;    
+    text-align: start;
+    position: absolute;
+    top: 140em;
+    z-index: -1;
+}
+
+.logo1{
+    margin-top:10em;
+    width:45%;
+    display: block;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    padding:1em;
+}
+
+footer ul li{
+    display: block;
+    margin:1.2em 1em;
+}
+
+footer li a{    
+    color:#fff;
+    text-decoration: none;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media i{
+    border:1px solid #fff;
+    padding: 0.7em 0.9em;
+    margin: 1em 0.25em;
+    border-radius: 90%;
+}
+
+.copyright{
+    font-size:0.7rem;
+    text-align: center;
+    padding:1em 0;
+}
